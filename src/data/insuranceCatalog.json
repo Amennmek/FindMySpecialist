@@ -1,0 +1,57 @@
+{
+  "insurers": [
+    {
+      "id": "blue_cross_blue_shield_mn",
+      "name": "Blue Cross Blue Shield of Minnesota",
+      "sourceUrl": "https://www.bluecrossmn.com/shop-plans/individual-family-plans",
+      "plans": []
+    },
+    {
+      "id": "healthpartners",
+      "name": "HealthPartners",
+      "sourceUrl": "https://www.healthpartners.com/insurance/",
+      "plans": [
+        {
+          "id": "healthpartners_families_children_pmap",
+          "name": "HealthPartners Families & Children (PMAP)",
+          "sourceUrl": "https://www.healthpartners.com/insurance/minnesota-medical-assistance/"
+        },
+        {
+          "id": "healthpartners_msho",
+          "name": "HealthPartners Minnesota Senior Health Options (MSHO)",
+          "sourceUrl": "https://www.healthpartners.com/insurance/medicare/minnesota-senior-health-options/"
+        }
+      ]
+    },
+    {
+      "id": "medica",
+      "name": "Medica",
+      "sourceUrl": "https://www.medica.com/",
+      "plans": [
+        {
+          "id": "medica_one_health_plan",
+          "name": "Medica One Health Plan",
+          "sourceUrl": "https://www.medica.com/ucare-members"
+        }
+      ]
+    },
+    {
+      "id": "medicare",
+      "name": "Medicare",
+      "sourceUrl": "https://www.medicare.gov/",
+      "plans": []
+    },
+    {
+      "id": "ucare",
+      "name": "UCare",
+      "sourceUrl": "https://www.ucare.org/",
+      "plans": []
+    },
+    {
+      "id": "united_healthcare",
+      "name": "United Healthcare",
+      "sourceUrl": "https://www.uhc.com/",
+      "plans": []
+    }
+  ]
+}

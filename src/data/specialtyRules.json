@@ -1,0 +1,20 @@
+{
+  "Acne": ["Dermatology"],
+  "Abdominal Pain": ["Gastroenterology"],
+  "Blurred Vision": ["Ophthalmology"],
+  "Chest Pain": [],
+  "Ear Pain": ["Otolaryngology"],
+  "Frequent Headaches": ["Neurology"],
+  "Heartburn": ["Gastroenterology"],
+  "Hearing Loss": ["Otolaryngology"],
+  "Joint Pain": ["Orthopedics"],
+  "Knee Pain": ["Orthopedics"],
+  "Numbness or Tingling": ["Neurology"],
+  "Persistent Cough": ["Primary Care"],
+  "Sinus Congestion": ["Otolaryngology"],
+  "Skin Rash": ["Dermatology"],
+  "Sore Throat": ["Otolaryngology"],
+  "Stomach Bloating": ["Gastroenterology"],
+  "Sudden Severe Headache": [],
+  "Vision Changes": ["Ophthalmology"]
+}

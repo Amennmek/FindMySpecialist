@@ -1,0 +1,120 @@
+
+[
+  {
+    "practice": "Schweiger Dermatology Group - Edina",
+    "address": {
+      "street": "4100 W 50TH ST",
+      "suite": "",
+      "city": "EDINA",
+      "state": "MN",
+      "zip": "55424"
+    },
+    "sourceType": "clinic",
+    "sourceUrl": "https://www.schweigerderm.com/location/minnesota/edina/",
+    "dateChecked": "2026-11-17",
+    "insurance": [
+      {
+        "insurerId": "blue_cross_blue_shield_mn",
+        "insurer": "Blue Cross Blue Shield of Minnesota",
+        "exactPlanName": null,
+        "networkStatus": "in",
+        "verified": true
+      },
+      {
+        "insurerId": "healthpartners",
+        "insurer": "HealthPartners",
+        "exactPlanName": null,
+        "networkStatus": "in",
+        "verified": true
+      },
+      {
+        "insurerId": "ucare",
+        "insurer": "UCare",
+        "exactPlanName": null,
+        "networkStatus": "in",
+        "verified": true
+      },
+      {
+        "insurerId": "united_healthcare",
+        "insurer": "UnitedHealthcare",
+        "exactPlanName": null,
+        "networkStatus": "in",
+        "verified": true
+      },
+      {
+        "insurerId": "medicare",
+        "insurer": "Medicare",
+        "exactPlanName": null,
+        "networkStatus": "in",
+        "verified": true
+      }
+    ],
+    "verificationNote": "Insurers publicly listed; exact plan participation not confirmed."
+  },
+  {
+    "practice": "Dr. David Groth - Edina Dermatology",
+    "address": {
+      "street": "4100 W 50TH ST",
+      "suite": "",
+      "city": "EDINA",
+      "state": "MN",
+      "zip": "55424"
+    },
+    "sourceType": "provider",
+    "providerName": "David W Groth",
+    "sourceUrl": "https://providers.allinahealth.org/provider/david-w-groth/5826212",
+    "dateChecked": "2026-11-17",
+    "insurance": [
+      {
+        "insurerId": "blue_cross_blue_shield_mn",
+        "insurer": "Blue Cross Blue Shield of Minnesota",
+        "exactPlanName": null,
+        "networkStatus": "in",
+        "verified": true
+      },
+      {
+        "insurerId": "healthpartners",
+        "insurer": "HealthPartners",
+        "exactPlanName": null,
+        "networkStatus": "in",
+        "verified": true
+      },
+      {
+        "insurerId": "medica",
+        "insurer": "Medica",
+        "exactPlanName": null,
+        "networkStatus": "in",
+        "verified": true
+      },
+      {
+        "insurerId": "ucare",
+        "insurer": "UCare",
+        "exactPlanName": null,
+        "networkStatus": "in",
+        "verified": true
+      },
+      {
+        "insurerId": "united_healthcare",
+        "insurer": "UnitedHealthcare",
+        "exactPlanName": null,
+        "networkStatus": "in",
+        "verified": true
+      },
+      {
+        "insurerId": "medicare",
+        "insurer": "Medicare",
+        "exactPlanName": null,
+        "networkStatus": "in",
+        "verified": true
+      },
+      {
+        "insurerId": "medicaid",
+        "insurer": "Medicaid",
+        "exactPlanName": null,
+        "networkStatus": "in",
+        "verified": true
+      }
+    ],
+    "verificationNote": "Insurers listed on provider profile; exact plans not confirmed."
+  }
+]

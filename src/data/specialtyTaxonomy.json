@@ -1,0 +1,9 @@
+{
+  "Dermatology": ["Dermatology"],
+  "Orthopedics": ["Orthopaedic Surgery"],
+  "Neurology": ["Neurology"],
+  "Gastroenterology": ["Gastroenterology"],
+  "Otolaryngology": ["Otolaryngology"],
+  "Ophthalmology": ["Ophthalmology"],
+  "Primary Care": ["Family Medicine", "Internal Medicine"]
+}

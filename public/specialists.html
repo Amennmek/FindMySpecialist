@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Specialists | FindMySpecialist</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>FindMySpecialist</h1>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/login.html">Login</a>
+      <a href="/signup.html">Sign Up</a>
+      <a href="/intake.html">Symptoms</a>
+      <a href="/match.html">Match</a>
+      <a href="/specialists.html">Find</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="panel" id="specialistsPage">
+      <h2>Find Specialists</h2>
+
+      <form id="searchForm" autocomplete="off">
+
+        <label for="city">City</label>
+        <input id="city" name="city" maxlength="100" required placeholder="Apple Valley">
+
+        <label for="state">State</label>
+        <input id="state" name="state" autocomplete="off" maxlength="2" pattern="[A-Za-z]{2}" required>
+
+        <label for="zip">ZIP code</label>
+        <input
+          id="zip"
+          name="zip"
+          inputmode="numeric"
+          pattern="[0-9]{5}"
+          maxlength="5"
+          autocomplete="off"
+          required
+        >
+
+        <label for="maxDistance">Maximum straight-line distance from your ZIP area</label>
+        <select id="maxDistance" name="maxDistance">
+          <option value="5">5 miles</option>
+          <option value="10" selected>10 miles</option>
+          <option value="15">15 miles</option>
+          <option value="25">25 miles</option>
+          <option value="50">50 miles</option>
+        </select>
+
+        <label for="insurerId">Insurance provider (optional)</label>
+        <select id="insurerId" name="insurerId">
+          <option value="">Any insurer</option>
+        </select>
+
+        <label for="planId">Plan (optional)</label>
+        <select id="planId" name="planId" disabled>
+          <option value="">Select an insurer first</option>
+        </select>
+
+        <div class="button-row">
+          <button type="submit">Search</button>
+          <button type="button" class="secondary" id="clearFilters">Clear Filters</button>
+          <button type="button" class="secondary" id="savePrefs">
+            Save Preferences (login required)
+          </button>
+        </div>
+      </form>
+
+      <p>Your city is used to validate your state and ZIP; the ZIP area is used to estimate distance from the ZIP area. Public NPPES listings do not guarantee insurance acceptance, current licensure, or appointment availability.</p>
+      <div id="message" role="status" aria-live="polite"></div>
+      <div id="results"></div>
+    </div>
+  </main>
+
+  <footer>FindMySpecialist</footer>
+  <script src="/js/specialists.js"></script>
+</body>
+</html>
